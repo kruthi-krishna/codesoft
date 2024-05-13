@@ -1,0 +1,110 @@
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 8px;
+  background: linear-gradient(to bottom right, #8A2387, #E94057, #F27121); /* Linear gradient background */
+  color: #fff;
+}
+
+h1 {
+  text-align: center;
+}
+
+input[type="text"],
+input[type="datetime-local"],
+button {
+  margin: 5px 0;
+  padding: 8px;
+  width: calc(100% - 16px);
+  border: none;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #000; /* Change background color to black */
+  color: white; /* Change text color to white */
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #333; /* Darken background color on hover */
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 4px;
+  background-color: #f0f0f0; /* Light gray background color */
+  color: #000; /* Black text color for contrast */
+}
+
+.task-info {
+  display: flex;
+  align-items: center;
+}
+
+.task-info .title {
+  flex: 1;
+}
+
+.time {
+  margin-left: 10px;
+  color: black;
+  font-weight: bold;
+}
+
+.search-container {
+  text-align: right;
+}
+
+/* Add styles for the time span */
+.time {
+  float: right;
+  margin-top: 10px;
+  color: black;
+  font-weight: bold;
+}
+
+/* Styles for display page */
+.display-page {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 8px;
+  background: linear-gradient(to bottom right, #8A2387, #E94057, #F27121); /* Linear gradient background */
+  color: #fff;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.display-page h1 {
+  margin-bottom: 20px;
+}
+
+.display-page button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.display-page button:hover {
+  background-color: #45a049;
+}
